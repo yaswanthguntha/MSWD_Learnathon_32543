@@ -1,0 +1,128 @@
+body {
+    background-image: linear-gradient(to bottom, #E7EFF5, #8DFFFB);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: calc(100vh - 0px);
+  }
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 100px;
+    color: #ffffff;
+}
+
+.home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-title {
+    font-size: 3em;
+    margin-bottom: 50px;
+    color: #00B3AC;
+    transform: translate(-80%, 200%);
+}
+
+.content {
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .back-drop {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transform: translate(80%, -15%);
+}
+
+.content .image {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    transform: translate(15px, -15px);
+}
+
+.content .image img {
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content .text {
+    z-index: 222;
+    padding: 40px;
+    font-size: 25px;
+    color: #00B3AC;
+    max-width: 400px;
+    border-radius: 10px;
+    transform: translate(-140%, -20%);
+}
+
+.about {
+    width: 90%;
+    font-size: 18px;
+    color: #00A09A;
+}
+
+.about p {
+    text-align: justify;
+    margin: 20px;
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+}
+
+.display {
+    max-width: 75%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.display .artwork {
+    width: auto;
+    height: 430px;
+    padding: 15px;
+    background-color: #e7eff52f;
+    backdrop-filter: blur(20px);
+    margin: 10px;
+    border: 2px solid #00B3AC;
+    border-radius: 10px;
+}
+
+.imgtag {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.artwork img {
+    border-radius: 10px;
+}
+
+.artwork .artimg {
+    width: 300px;
+    height: auto;
+}

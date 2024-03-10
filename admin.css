@@ -1,0 +1,60 @@
+.admin-home {
+    padding: 50px;
+}
+
+.operations {
+    font-size: 28px;
+    font-weight: 600;
+    color: #00A09A;
+}
+
+.admin-home a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.info {
+    color: #00A09A;
+    font-weight: 600;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 1000px;
+    border-radius: 15px 3px 15px 3px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #00B3AC;
+  }
+  thead tr {
+    background-color: #00B3AC;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+  }
+  th,td {
+    padding: 10px 15px;
+  }
+  tbody tr {
+    text-align: center;
+    background-color: #f3f3f3;
+    color: #000;
+    border-bottom: 1px solid gray;
+  }
+  tbody tr:hover {
+    background-color: #D6EDFF;
+    cursor: pointer;
+  }
+
+.button {
+    height: 40px;
+    width: 60px;
+    border: 1px solid #00B3AC;
+    border-radius: 10px;
+    background: #00B3AC;
+    cursor: pointer;
+}
+
+.delete {
+    height: 35px;
+}
